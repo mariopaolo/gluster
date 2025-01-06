@@ -17,13 +17,13 @@ spec:
     values:
         credentials:
             backblaze:
-                accessKey: ${BACKBLAZE_ACCESS_KEY}
-                bucket: ${BACKBLAZE_TC_BUCKET}
+                type: s3            
+                url: "${BACKBLAZE_ENDPOINT}"
+                bucket: "${BACKBLAZE_TC_BUCKET}"
+                accessKey: "${BACKBLAZE_ACCESS_KEY}"
                 encrKey: "${BACKBLAZE_ENC_KEY}"
-                name: backblaze
                 secretKey: "${BACKBLAZE_SECRET_KEY}"
-                type: s3
-                url: ${BACKBLAZE_ENDPOINT}
+                name: backblaze
 
         ingress:
             main:
