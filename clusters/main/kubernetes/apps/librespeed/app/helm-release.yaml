@@ -29,20 +29,14 @@ spec:
         ingress:
             main:
                 enabled: true
+                integrations:
+                    traefik:
+                        enabled: true
+                    certManager:
+                        enabled: true
+                        certificateIssuer: domain-0-le-prod
                 hosts:
                     - host: speed.$(DOMAIN_0)
-                      paths:
-                        - path: /
-                          pathType: Prefix
-                integrations:
-                    certManager:
-                        certificateIssuer: domain-0-le-prod
-                        enabled: true
-                    traefik:
-                        allowCors: false
-                        enabled: true
-                        entrypoints:
-                            - websecure
         persistence:
             config:
                 enabled: true
