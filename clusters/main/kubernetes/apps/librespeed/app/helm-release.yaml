@@ -38,6 +38,11 @@ spec:
                     certManager:
                         certificateIssuer: domain-0-le-prod
                         enabled: true
+                    traefik:
+                        allowCors: false
+                        enabled: true
+                        entrypoints:
+                            - websecure
         persistence:
             config:
                 enabled: true
