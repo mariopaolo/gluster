@@ -16,16 +16,16 @@ spec:
     releaseName: librespeed
     values:
         TZ: Europe/Rome
-        credentials:
-            backblaze:
-                accessKey: ${BACKBLAZE_ACCESS_KEY}
-                bucket: ${BACKBLAZE_TC_BUCKET}
-                encrKey: ${BACKBLAZE_ENC_KEY}
-                name: backblaze
-                path: ""
-                secretKey: ${BACKBLAZE_SECRET_KEY}
-                type: s3
-                url: ${BACKBLAZE_ENDPOINT}
+        # credentials:
+        #     backblaze:
+        #         accessKey: ${BACKBLAZE_ACCESS_KEY}
+        #         bucket: ${BACKBLAZE_TC_BUCKET}
+        #         encrKey: ${BACKBLAZE_ENC_KEY}
+        #         name: backblaze
+        #         path: ""
+        #         secretKey: ${BACKBLAZE_SECRET_KEY}
+        #         type: s3
+        #         url: ${BACKBLAZE_ENDPOINT}
         ingress:
             main:
                 enabled: true
