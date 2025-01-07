@@ -17,7 +17,7 @@ spec:
     values:
         credentials:
             backblaze:
-                type: s3            
+                type: s3
                 url: "${BACKBLAZE_ENDPOINT}"
                 bucket: "${BACKBLAZE_TC_BUCKET}"
                 accessKey: "${BACKBLAZE_ACCESS_KEY}"
