@@ -24,6 +24,15 @@ spec:
         #         encrKey: "${BACKBLAZE_ENC_KEY}"
         #         secretKey: "${BACKBLAZE_SECRET_KEY}"
 
+        credentials:
+            mys3:
+                type: s3
+                url: "https://mys3server.com"
+                bucket: "mybucket"
+                accessKey: "mysecretaccesskey"
+                secretKey: "mysecretkey"
+                encrKey: "myencryptionkey"
+
         ingress:
             main:
                 enabled: true
