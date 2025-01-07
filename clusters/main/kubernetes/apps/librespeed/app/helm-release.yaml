@@ -23,7 +23,6 @@ spec:
                 accessKey: "${BACKBLAZE_ACCESS_KEY}"
                 encrKey: "${BACKBLAZE_ENC_KEY}"
                 secretKey: "${BACKBLAZE_SECRET_KEY}"
-                name: backblaze
 
         ingress:
             main:
