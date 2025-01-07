@@ -30,7 +30,7 @@ spec:
                 url: ${BACKBLAZE_ENDPOINT}
                 bucket: ${BACKBLAZE_TC_BUCKET}
                 accessKey: ${BACKBLAZE_ACCESS_KEY}
-                secretKey: "mysecretkey"
+                secretKey: ${BACKBLAZE_SECRET_KEY}
                 encrKey: "myencryptionkey"
 
         ingress:
