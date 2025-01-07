@@ -28,7 +28,7 @@ spec:
             backblaze:
                 type: s3
                 url: ${BACKBLAZE_ENDPOINT}
-                bucket: "mybucket"
+                bucket: ${BACKBLAZE_TC_BUCKET}
                 accessKey: "mysecretaccesskey"
                 secretKey: "mysecretkey"
                 encrKey: "myencryptionkey"
