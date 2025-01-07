@@ -31,7 +31,7 @@ spec:
                 bucket: ${BACKBLAZE_TC_BUCKET}
                 accessKey: ${BACKBLAZE_ACCESS_KEY}
                 secretKey: ${BACKBLAZE_SECRET_KEY}
-                encrKey: ${BACKBLAZE_ENC_KEY}
+                encrKey: ${BACKBLAZE_ENCRYPTION_KEY}
 
         ingress:
             main:
