@@ -15,14 +15,6 @@ spec:
                 namespace: flux-system
 
     values:
-        # credentials:
-        #     backblaze:
-        #         type: s3
-        #         url: "${BACKBLAZE_ENDPOINT}"
-        #         bucket: "${BACKBLAZE_TC_BUCKET}"
-        #         accessKey: "${BACKBLAZE_ACCESS_KEY}"
-        #         encrKey: "${BACKBLAZE_ENC_KEY}"
-        #         secretKey: "${BACKBLAZE_SECRET_KEY}"
 
         credentials:
             backblaze:
